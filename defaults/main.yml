@@ -1,0 +1,4 @@
+---
+# defaults file for daBONDi-win-dhcp-server
+
+with_management_tools: true

@@ -1,0 +1,5 @@
+---
+- name: Ensure windows role dhcp server is enabled
+  win_feature:
+    name: "DHCP"
+    include_management_tools: "{{ with_management_tools }}"
